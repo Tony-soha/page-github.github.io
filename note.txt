@@ -1,0 +1,39 @@
+git config --global user.name ""
+git config --global user.email ""
+global for all folders
+"Git Bash here"
+git init 
+ls
+git status
+git add 
+git add --all
+git commit -m ""
+when skipping the staging environment
+git status --short
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
+Skipping the stage step can sometimes make you include unwanted changes.
+git commit -a -m "Updated index.html with a new line"
+git log: history of commits
+git command such as commit -help
+git help --all
+SHIFT + G to jump the end of the list
+git branch + some name
+git branch
+git checkout some name
+git add --all
+git commit -m "Added image to Hello World"
+ls
+git checkout -b emergency-fix
+git add index.html
+git checkout master
+git merge emergency-fix
+git branch -d emergency-fix delete
+
+
+
+
+
+
